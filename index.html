@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Yellow Brownies</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style-detailedpage.css">
+
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/2773f2591a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <nav style="background-color: 	#00114f; position:fixed; z-index: 9999; overflow: hidden; width: 100%;" class=" navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a style="color: 	#ffc125;" class="navbar-brand shop-item-price logo h1 align-self-center" href="index.html">Yellow Brownies</a>
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a  class=" h3 nav-link" href="index.html"> <b>Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a  class=" h3 nav-link" href="Ocean.html"> <b>Oceans</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" h3 nav-link" href="Services.html"> <b>Ocean Services</b> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" h3 nav-link" href="Issues.html"> <b>Ocean Threats</b> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div style="padding-top: 90px;padding-bottom: 0;"></div>
+
+
+    <nav style="padding-top:0;background-color: #006994; position: fixed; z-index: 9998; overflow: hidden;width: 100%; height: 5em;:fit-content; display: flex; align-items: center; justify-content: center;" class="navbar navbar-expand-lg navbar-dark shadow">
+        <div  class="container">
+            <!-- Ocean Navbar Brand -->
+            <div style="justify-content: center;" class="collapse navbar-collapse" id="oceanNavbar">
+                <ul style="justify-content: center" class="navbar-nav ml-auto">
+                    <li style="padding-right: 10px;" class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);" onclick="showOcean('atlantic')">Atlantic Ocean</a></li>
+                    <li style="padding-right: 10px;" class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);" onclick="showOcean('arctic')">Arctic Ocean</a></li>
+                    <li  style="padding-right: 10px;" class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);" onclick="showOcean('indian')">Indian Ocean</a></li>
+                    <li style="padding-right: 10px;"class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);" onclick="showOcean('pacific')">Pacific Ocean</a></li>
+                    <li style="padding-right: 10px;"class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);" onclick="showOcean('southern')">Southern Ocean</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Header -->
+    <!-- idk  -->
+    <div style="padding-top: 90px;"></div>
+    <iframe id="world-iframe" src="https://www.google.com/maps/d/u/0/embed?mid=1GurvjawuWbAFOs8Fd2voklySrvlcRzQ&ehbc=2E312F" width="100%" height="900"></iframe><iframe id="indian-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30260149.952389583!2d35.19589651681172!3d-22.207199670610247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18174db2727f6a1f%3A0xead4bf5063a99637!2sIndian%20Ocean!5e0!3m2!1sen!2sca!4v1696793177346!5m2!1sen!2sca" width="100%" height="900" style="border:0; display: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </li>
+    <iframe id="atlantic-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32676326.042871367!2d-31.498041349999994!3d-1.2885860499999955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x65a81cae36eb8ff%3A0xa6342257f310534f!2sAtlantic%20Ocean!5e0!3m2!1sen!2sca!4v1696793122512!5m2!1sen!2sca" width="100%" height="900" style="border:0; display: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </li>
+    <iframe id="arctic-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430447.795401261!2d-67.61516238489133!3d65.17649433687215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4e818ae7b7b9dc55%3A0x73f923b8957d071e!2sArctic%20Ocean!5e0!3m2!1sen!2sca!4v1696793156549!5m2!1sen!2sca" width="100%" height="900" style="border:0; display: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </li>
+    <iframe id="indian-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30260149.952389583!2d35.19589651681172!3d-22.207199670610247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18174db2727f6a1f%3A0xead4bf5063a99637!2sIndian%20Ocean!5e0!3m2!1sen!2sca!4v1696793177346!5m2!1sen!2sca" width="100%" height="900" style="border:0; display: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </li>
+    <iframe id="pacific-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32361295.784795254!2d-149.23960340000008!3d-8.065379849999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x76ed042c30f318eb%3A0x8eff14a070876cbc!2sPacific%20Ocean!5e0!3m2!1sen!2sca!4v1696793196406!5m2!1sen!2sca" width="100%" height="900" style="border:0; display: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </li>
+    <iframe id="southern-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5865.1544185912435!2d-160.2443670584131!3d-68.43801283226631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa5da7ccb2b9a2d91%3A0xb2f0be48d8d76199!2sSouthern%20Ocean!5e0!3m2!1sen!2sca!4v1696793212454!5m2!1sen!2sca" width="100%" height="900" style="border:0; display: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </li>
+
+    <div id="atlantic-info" style="display: none;">
+        <div style=" opacity: 80%; position: absolute; bottom: 250px; right: 20px;  background-color: black;  color: white; padding-left: 30px;  padding-right: 20px; padding-top: 20px;">
+            <h4 style="text-align: center;" >Atlantic Ocean</h4>
+            <p style="  display: list-item;">106.5 million km squared</p> 
+            <p style="  display: list-item;">3646 meter depth</p>
+            <p style="  display: list-item;">24% of Earth’s water mass</p>
+            <p style="  display: list-item;">The Titanic sunk in the Atlantic Ocean</p>
+            <p><a style="color: white;" href="Ocean.html#Atlantic" target="">Learn more!</a></p>
+
+        </div>
+    </div>
+    
+    <div id="arctic-info" style="display: none;">
+        <div style=" opacity: 80%; position: absolute; bottom: 250px; right: 20px;  background-color: black;  color: white; padding-left: 30px;  padding-right: 20px; padding-top: 20px;">
+            <h4 style="text-align: center;">Arctic Ocean</h4>
+            <p style="  display: list-item;">14.06 million km squared</p> 
+            <p style="  display: list-item;">1038 meter depth</p>
+            <p style="  display: list-item;">1.3% of Earth’s water mass</p>
+            <p style="  display: list-item;">Water levels have risen 9 inches.</p>
+            <p><a style="color: white;" href="Ocean.html#Arctic">Learn more!</a></p>
+        </div>
+    </div>
+
+   <div id="indian-info" style="display: none;">
+        <div style=" opacity: 80%; position: absolute; bottom: 250px; right: 20px;  background-color: black;  color: white; padding-left: 30px;  padding-right: 20px; padding-top: 20px;">
+          <h4 style="text-align: center;">Indian Ocean</h4>
+          <p style="  display: list-item;">70.56 million km squared</p> 
+          <p style="  display: list-item;">3890 meter depth</p> 
+          <p style="  display: list-item;">20% of Earth’s water mass</p>
+          <p style="  display: list-item;">Throughout the last 5 years alone, <br> squid fishing has gone up by over 830%</p>
+          <p><a style="color: white;" href="Ocean.html#Indian">Learn more!</a></p>
+
+        </div>
+    </div>
+    <div id="pacific-info" style="display: none;">
+        <div style=" opacity: 80%; position: absolute; bottom: 250px; right: 20px;  background-color: black;  color: white; padding-left: 30px;  padding-right: 20px; padding-top: 20px;">
+            <h4 style="text-align: center;">Pacific Ocean</h4>
+            <p style="  display: list-item;">165.2 million km squared</p> 
+            <p style="  display: list-item;">4000 meter depth</p> 
+            <p style="  display: list-item;">50% of Earth’s water mass</p>
+            <p style="  display: list-item;">In 2022 alone, over 2 billion <br> 
+                                                barrels of oil were extracted </p>
+                                                <p>
+            <a style="color: white;" href="Ocean.html#c">Learn more!</a></p>
+
+        </div>
+    </div>
+    <div id="southern-info" style="display: none;">
+        <div style=" opacity: 80%; position: absolute; bottom: 250px; right: 20px;  background-color: black;  color: white; padding-left: 30px;  padding-right: 20px; padding-top: 20px;">
+          <h4 style="text-align: center;">Southern Ocean</h4>
+          <p style="  display: list-item;">20.33 million km squared</p> 
+          <p style="  display: list-item;">3200 meter depth</p> 
+          <p style="  display: list-item;">5% of Earth’s water mass</p>
+          <p style="  display: list-item;">Only 235 species in the area</p>
+          <p><a style="color: white;" href="Ocean.html#Southern">Learn more!</a></p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Start Footer -->
+    <footer style=" bottom: 0!important; margin: 0!important; " class="bg-dark" id="tempaltemo_footer">
+        <div style="padding-bottom: 0;" class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 border-bottom pb-3 border-light logo" style="color: #fff402;">Yellow Brownies
+                    </h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Toronto
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="">888-888-8888</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-github"></i>
+                            <a class="text-decoration-none" href="https://github.com/yellowbrownies">github.com/yellowbrownies</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-otter" style="color: #cfd6e1;"></i>
+                            <a class="text-decoration-none" href="">Yellow Brownies</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script>
+        var currentOcean = null;
+    
+        // JavaScript function to show an iframe based on the ocean name
+        function showOcean(oceanName) {
+            // Hide the currently displayed info box
+            if (currentOcean !== null) {
+                document.getElementById(currentOcean + '-info').style.display = 'none';
+            }
+    
+            // Hide all iframes
+            var iframes = document.querySelectorAll('iframe');
+            for (var i = 0; i < iframes.length; i++) {
+                iframes[i].style.display = 'none';
+            }
+    
+            // Show the corresponding iframe
+            var iframe = document.getElementById(oceanName + '-iframe');
+            if (iframe) {
+                iframe.style.display = 'block';
+            }
+    
+            // Show the corresponding info box
+            var infoBox = document.getElementById(oceanName + '-info');
+            if (infoBox) {
+                infoBox.style.display = 'block';
+            }
+    
+            // Set the current ocean to the one just clicked
+            currentOcean = oceanName;
+        }
+    </script>
+    
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="https://www.socialintents.com/api/socialintents.1.3.js#2c9fa6c38b111bc5018b114287550013" async="async"></script>
+    <!-- End Script -->
+</body>
+
+</html>
